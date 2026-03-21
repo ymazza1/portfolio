@@ -9,20 +9,22 @@ import {
 } from '@react-pdf/renderer'
 import { meta, skills, experiences, education } from '../data/portfolio'
 
+const base = import.meta.env.BASE_URL
+
 Font.register({
   family: 'CormorantGaramond',
   fonts: [
-    { src: '/fonts/CormorantGaramond-Regular.woff', fontWeight: 400 },
-    { src: '/fonts/CormorantGaramond-Bold.woff',    fontWeight: 700 },
+    { src: `${base}fonts/CormorantGaramond-Regular.woff`, fontWeight: 400 },
+    { src: `${base}fonts/CormorantGaramond-Bold.woff`,    fontWeight: 700 },
   ],
 })
 
 Font.register({
   family: 'DMSans',
   fonts: [
-    { src: '/fonts/DMSans-Light.woff',   fontWeight: 300 },
-    { src: '/fonts/DMSans-Regular.woff', fontWeight: 400 },
-    { src: '/fonts/DMSans-Medium.woff',  fontWeight: 500 },
+    { src: `${base}fonts/DMSans-Light.woff`,   fontWeight: 300 },
+    { src: `${base}fonts/DMSans-Regular.woff`, fontWeight: 400 },
+    { src: `${base}fonts/DMSans-Medium.woff`,  fontWeight: 500 },
   ],
 })
 
