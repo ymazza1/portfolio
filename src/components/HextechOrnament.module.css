@@ -1,0 +1,25 @@
+.desktop {
+  position: absolute;
+  right: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+.mobile {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 16px;
+  height: 100%;
+  pointer-events: none;
+}
+
+@media (max-width: 640px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}

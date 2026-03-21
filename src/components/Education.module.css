@@ -1,0 +1,44 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 0 1.5rem;
+  padding: 1.2rem 0;
+  border-bottom: 1px solid var(--brd);
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.period {
+  font-size: 0.78rem;
+  color: var(--txt3);
+  letter-spacing: 0.04em;
+  padding-top: 3px;
+  font-weight: 400;
+}
+
+.degree {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--txt);
+}
+
+.school {
+  font-size: 0.83rem;
+  color: var(--gld);
+  margin-top: 0.15rem;
+}
+
+.description {
+  font-size: 0.8rem;
+  color: var(--txt2);
+  margin-top: 0.4rem;
+  font-weight: 300;
+  line-height: 1.55;
+}

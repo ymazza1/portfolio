@@ -1,0 +1,26 @@
+.section {
+  padding: 2.8rem 2rem;
+  border-bottom: 1px solid var(--brd);
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 2rem;
+}
+
+.label {
+  font-size: 0.68rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gld);
+  white-space: nowrap;
+  font-weight: 400;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background: var(--brd);
+}

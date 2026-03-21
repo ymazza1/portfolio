@@ -1,0 +1,61 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 0 1.5rem;
+  padding: 1.4rem 0;
+  border-bottom: 1px solid var(--brd);
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.period {
+  font-size: 0.78rem;
+  color: var(--txt3);
+  letter-spacing: 0.04em;
+  padding-top: 3px;
+  font-weight: 400;
+}
+
+.role {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--txt);
+  margin-bottom: 0.2rem;
+}
+
+.company {
+  font-size: 0.85rem;
+  color: var(--gld);
+  font-weight: 400;
+  margin-bottom: 0.55rem;
+}
+
+.description {
+  font-size: 0.83rem;
+  color: var(--txt2);
+  line-height: 1.65;
+  margin-bottom: 0.7rem;
+  font-weight: 300;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.38rem;
+}
+
+.chip {
+  font-size: 0.72rem;
+  padding: 2px 9px;
+  background: var(--sur2);
+  border: 1px solid var(--brd);
+  border-radius: 3px;
+  color: var(--txt3);
+}
