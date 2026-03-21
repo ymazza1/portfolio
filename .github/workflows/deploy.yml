@@ -5,7 +5,6 @@ on:
     branches:
       - main
 
-# Permissions nécessaires pour pousser sur gh-pages
 permissions:
   contents: write
 
