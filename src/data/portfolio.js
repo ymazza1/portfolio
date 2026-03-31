@@ -36,7 +36,7 @@ export const skills = [
 
 export const experiences = [
   {
-    period: "20236",
+    period: "2026",
     role: "Développeur Fullstack",
     company: "7Opteam/Nomadia",
     location: "Nantes",
