@@ -30,7 +30,7 @@ export const skills = [
   },
   {
     category: "Autres",
-    items: ["Python", "Agile / Scrum"],
+    items: ["Python", "Agile / Scrum","Domain Driven Design"],
   },
 ];
 
@@ -59,6 +59,8 @@ export const experiences = [
       "Clean Code",
       "Cybersécurité",
       "Google Workspace",
+      "Devops",
+      "Domain Driven Design"
     ],
   },
   {
