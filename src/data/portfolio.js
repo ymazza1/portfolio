@@ -42,7 +42,7 @@ export const experiences = [
     location: "Nantes",
     description:
       "Evolution d'une API C#, d'un front Angular et d'une application mobile Flutter dans le cadre d'un ajout de gestion de tâches et de formulaires de feedback pour un outil de gestion de tournée professionelle chez des clients.",
-    tags: ["Angular", "Flutter", "C#", "SurveyJS"],
+    tags: ["Angular", "Flutter", "C#", "SurveyJS","Java"],
   },
   {
     period: "2024 — 2026",
